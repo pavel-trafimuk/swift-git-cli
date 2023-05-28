@@ -9,7 +9,7 @@ public final class Git {
     public let localUrl: URL
     public let verbose: Int
     
-    init(localUrl: URL, verbose: Int) {
+    public init(localUrl: URL, verbose: Int) {
         self.localUrl = localUrl
         self.verbose = verbose
     }
